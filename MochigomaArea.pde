@@ -17,3 +17,4 @@ int getBlankYIndex() {
     }
     return -1;//空きが無い場合
   }
+}
