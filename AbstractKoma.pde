@@ -27,5 +27,5 @@ abstract class AbstractKoma {
   void drawSelected() {
     fill(#FF0000, SQUARESIZE);
     rect(this.x*SQUARESIZE, this.y*SQUARESIZE, SQUARESIZE, SQUARESIZE);
-   
+  } 
 }
