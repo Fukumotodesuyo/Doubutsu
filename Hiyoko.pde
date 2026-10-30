@@ -12,7 +12,16 @@ class Hiyoko extends AbstractKoma {
 
     return false;
   }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   
+=======
+>>>>>>> 70a72ce (Niwatoriクラスの更新)
+=======
+>>>>>>> 70a72ce (Niwatoriクラスの更新)
+=======
+>>>>>>> origin/step8_2b
   void updatePos(int toX, int toY) {
     if(this.team==0 && toX==board.bArea.posX+board.bArea.yoko-1){
       komaList.promote(this,toX,toY);
