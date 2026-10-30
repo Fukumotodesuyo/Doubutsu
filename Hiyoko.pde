@@ -13,7 +13,10 @@ class Hiyoko extends AbstractKoma {
     return false;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   
+=======
+>>>>>>> 70a72ce (Niwatoriクラスの更新)
 =======
 >>>>>>> 70a72ce (Niwatoriクラスの更新)
   void updatePos(int toX, int toY) {
