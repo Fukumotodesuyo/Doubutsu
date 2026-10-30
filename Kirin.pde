@@ -3,7 +3,7 @@ class Kirin extends AbstractKoma {
   Kirin(String name, int x, int y, int team, boolean active) {
     super(name, x, y, team, active);
   }
-   boolean canMove(int toX, int toY) {
+  boolean canMove(int toX, int toY) {
 
     if (!board.bArea.isInThisArea(toX,toY)) return false;
 
